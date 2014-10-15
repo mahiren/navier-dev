@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,_double_layer_navier.so -o _double_layer_navier.so CMakeFiles/_double_layer_navier.dir/double_layer_navierPYTHON_wrap.cxx.o /home/mahir/anaconda/lib/libpython2.7.so /home/mahir/bempp/lib/libbempp.so /home/mahir/bempp/lib/libteuchoscore.so -Wl,-rpath,/home/mahir/anaconda/lib:/home/mahir/bempp/lib 

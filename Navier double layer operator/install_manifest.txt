@@ -1,0 +1,3 @@
+/home/mahir/bempp/include/bempp/assembly/navier_3d_double_layer_boundary_operator.hpp
+/home/mahir/bempp/python/bempp/double_layer_navier.py
+/home/mahir/bempp/python/bempp/_double_layer_navier.so
