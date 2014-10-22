@@ -34,8 +34,8 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
-   "/home/mahir/bempp/include/bempp/assembly/helmholtz_3d_combined_boundary_operator.hpp")
-FILE(INSTALL DESTINATION "/home/mahir/bempp/include/bempp/assembly" TYPE FILE FILES "/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/helmholtz_3d_combined_boundary_operator.hpp")
+   "/home/mahir/bempp/include/bempp/assembly/navier_3d_single_layer_boundary_operator.hpp")
+FILE(INSTALL DESTINATION "/home/mahir/bempp/include/bempp/assembly" TYPE FILE FILES "/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/navier_3d_single_layer_boundary_operator.hpp")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

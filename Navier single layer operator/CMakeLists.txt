@@ -43,7 +43,7 @@ swig_link_libraries(single_layer_navier
     ${BEMPP_TEUCHOS_LIBRARY})
 
 # Specify files to be installed
-install(FILES helmholtz_3d_combined_boundary_operator.hpp
+install(FILES navier_3d_single_layer_boundary_operator.hpp
     DESTINATION "${CMAKE_INSTALL_PREFIX}/include/bempp/assembly")
 set(FILES_TO_INSTALL
     "${CMAKE_BINARY_DIR}/single_layer_navier.py"

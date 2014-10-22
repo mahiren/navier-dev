@@ -20,8 +20,8 @@ public:
     {}
 
     int kernelCount() const { return 1; }
-    int kernelRowCount(int kernelIndex) const { return 1; }
-    int kernelColCount(int kernelIndex) const { return 1; }
+    int kernelRowCount(int kernelIndex) const { return 3; }
+    int kernelColCount(int kernelIndex) const { return 3; }
 
     void addGeometricalDependencies(size_t& testGeomDeps,
                                     size_t& trialGeomDeps) const {

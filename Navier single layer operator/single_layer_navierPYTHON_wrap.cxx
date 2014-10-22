@@ -4976,7 +4976,7 @@ SWIGINTERN PyObject *_wrap_createNavier3dSingleLayerBoundaryOperator(PyObject *S
   boost::shared_ptr< Bempp::Space< double > const > *arg4 = 0 ;
   Bempp::ScalarTraits< double >::ComplexType arg5 ;
   Bempp::ScalarTraits< double >::ComplexType arg6 ;
-  Bempp::ScalarTraits< double >::ComplexType arg7 ;
+  Bempp::ScalarTraits< double >::RealType arg7 ;
   std::string const &arg8_defvalue = "" ;
   std::string *arg8 = (std::string *) &arg8_defvalue ;
   void *argp1 ;
@@ -4995,7 +4995,7 @@ SWIGINTERN PyObject *_wrap_createNavier3dSingleLayerBoundaryOperator(PyObject *S
   int ecode5 = 0 ;
   std::complex< double > val6 ;
   int ecode6 = 0 ;
-  std::complex< double > val7 ;
+  double val7 ;
   int ecode7 = 0 ;
   int res8 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
@@ -5075,11 +5075,11 @@ SWIGINTERN PyObject *_wrap_createNavier3dSingleLayerBoundaryOperator(PyObject *S
     SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "createNavier3dSingleLayerBoundaryOperator" "', argument " "6"" of type '" "Bempp::ScalarTraits< double >::ComplexType""'");
   } 
   arg6 = static_cast< Bempp::ScalarTraits< double >::ComplexType >(val6);
-  ecode7 = SWIG_AsVal_std_complex_Sl_double_Sg_(obj6, &val7);
+  ecode7 = SWIG_AsVal_double(obj6, &val7);
   if (!SWIG_IsOK(ecode7)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "createNavier3dSingleLayerBoundaryOperator" "', argument " "7"" of type '" "Bempp::ScalarTraits< double >::ComplexType""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "createNavier3dSingleLayerBoundaryOperator" "', argument " "7"" of type '" "Bempp::ScalarTraits< double >::RealType""'");
   } 
-  arg7 = static_cast< Bempp::ScalarTraits< double >::ComplexType >(val7);
+  arg7 = static_cast< Bempp::ScalarTraits< double >::RealType >(val7);
   if (obj7) {
     {
       std::string *ptr = (std::string *)0;
@@ -5125,7 +5125,7 @@ static PyMethodDef SwigMethods[] = {
 		"    dualToRange: boost::shared_ptr< Bempp::Space< double > const > const &\n"
 		"    waveNumber_p: Bempp::ScalarTraits< double >::ComplexType\n"
 		"    waveNumber_s: Bempp::ScalarTraits< double >::ComplexType\n"
-		"    mu: Bempp::ScalarTraits< double >::ComplexType\n"
+		"    mu: Bempp::ScalarTraits< double >::RealType\n"
 		"    label: std::string const &\n"
 		"\n"
 		""},

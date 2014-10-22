@@ -58,7 +58,7 @@ public:
         // Assert that there are is at least one vector-valued kernel
         assert(kernelValues.size() >= 1);
         assert(kernelValues[0].extent(0) == 3);
-        assert(kernelValues[0].extent(1) == 1);
+        assert(kernelValues[0].extent(1) == 3);
 
         // Assert that there is at least one test and trial transformation
         // of correct dimensions

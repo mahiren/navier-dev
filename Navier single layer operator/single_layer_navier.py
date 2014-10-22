@@ -97,7 +97,7 @@ def createNavier3dSingleLayerBoundaryOperator(*args):
         dualToRange: boost::shared_ptr< Bempp::Space< double > const > const &
         waveNumber_p: Bempp::ScalarTraits< double >::ComplexType
         waveNumber_s: Bempp::ScalarTraits< double >::ComplexType
-        mu: Bempp::ScalarTraits< double >::ComplexType
+        mu: Bempp::ScalarTraits< double >::RealType
         label: std::string const &
 
     """
