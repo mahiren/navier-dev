@@ -6,11 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../../bempp-simple-vector-spaces-master/simple_vector_function_value_functor.hpp
+common/common.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../../bempp-simple-vector-spaces-master/common/common.hpp
+fiber/basis_data.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../../bempp-simple-vector-spaces-master/fiber/basis_data.hpp
+fiber/geometrical_data.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../../bempp-simple-vector-spaces-master/fiber/geometrical_data.hpp
+fiber/collection_of_3d_arrays.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../../bempp-simple-vector-spaces-master/fiber/collection_of_3d_arrays.hpp
+fiber/shape_transformation_functor_wrappers.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../../bempp-simple-vector-spaces-master/fiber/shape_transformation_functor_wrappers.hpp
+
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/navier_3d_single_layer_boundary_operator.hpp
 navier_3d_single_layer_potential_kernel_functor.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/navier_3d_single_layer_potential_kernel_functor.hpp
 navier_3d_single_layer_boundary_operator_integrand_functor.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/navier_3d_single_layer_boundary_operator_integrand_functor.hpp
+../../bempp-simple-vector-spaces-master/simple_vector_function_value_functor.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../../bempp-simple-vector-spaces-master/simple_vector_function_value_functor.hpp
 assembly/boundary_operator.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/assembly/boundary_operator.hpp
 assembly/general_elementary_singular_integral_operator_imp.hpp
@@ -23,12 +37,12 @@ boost/make_shared.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/navier_3d_single_layer_boundary_operator_integrand_functor.hpp
 ../common/common.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/../common/common.hpp
-collection_of_3d_arrays.hpp
-/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/collection_of_3d_arrays.hpp
-geometrical_data.hpp
-/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/geometrical_data.hpp
-conjugate.hpp
-/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/conjugate.hpp
+fiber/collection_of_3d_arrays.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/fiber/collection_of_3d_arrays.hpp
+fiber/geometrical_data.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/fiber/geometrical_data.hpp
+fiber/conjugate.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier single layer operator/fiber/conjugate.hpp
 cassert
 -
 
@@ -2478,6 +2492,8 @@ Thyra_OperatorVectorTypes.hpp
 complex
 -
 
+/home/mahir/bempp/include/bempp/common/common.hpp
+
 /home/mahir/bempp/include/bempp/common/config_trilinos.hpp
 
 /home/mahir/bempp/include/bempp/common/scalar_traits.hpp
@@ -2555,6 +2571,24 @@ stdexcept
 /home/mahir/bempp/include/bempp/fiber/../common/armadillo_fwd.hpp
 ../common/multidimensional_arrays.hpp
 /home/mahir/bempp/include/bempp/fiber/../common/multidimensional_arrays.hpp
+
+/home/mahir/bempp/include/bempp/fiber/collection_of_3d_arrays.hpp
+_3d_array.hpp
+/home/mahir/bempp/include/bempp/fiber/_3d_array.hpp
+boost/scoped_array.hpp
+-
+collection_of_3d_arrays_imp.hpp
+/home/mahir/bempp/include/bempp/fiber/collection_of_3d_arrays_imp.hpp
+
+/home/mahir/bempp/include/bempp/fiber/collection_of_3d_arrays_imp.hpp
+collection_of_3d_arrays.hpp
+/home/mahir/bempp/include/bempp/fiber/collection_of_3d_arrays.hpp
+
+/home/mahir/bempp/include/bempp/fiber/conjugate.hpp
+../common/common.hpp
+/home/mahir/bempp/include/bempp/fiber/../common/common.hpp
+complex
+-
 
 /home/mahir/bempp/include/bempp/fiber/geometrical_data.hpp
 ../common/common.hpp

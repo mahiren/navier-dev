@@ -3,6 +3,7 @@
 
 #include "navier_3d_double_layer_potential_kernel_functor.hpp"
 #include "navier_3d_double_layer_boundary_operator_integrand_functor.hpp"
+#include "../../bempp-simple-vector-spaces-master/simple_vector_function_value_functor.hpp"
 
 #include "assembly/boundary_operator.hpp"
 #include "assembly/general_elementary_singular_integral_operator_imp.hpp"
@@ -28,7 +29,7 @@ navier3dDoubleLayerBoundaryOperator(
     typedef typename Bempp::ScalarTraits<BasisFunctionType>::RealType CoordinateType;
 
     typedef Navier3dDoubleLayerPotentialKernelFunctor<KernelType> KernelFunctor;
-    typedef Fiber::ScalarFunctionValueFunctor<CoordinateType>
+    typedef Fiber::SimpleVectorFunctionValueFunctor<CoordinateType, 3>
     TransformationFunctor;
     typedef Fiber::Navier3dDoubleLayerBoundaryOperatorIntegrandFunctor<
     BasisFunctionType, KernelType, ResultType> IntegrandFunctor;

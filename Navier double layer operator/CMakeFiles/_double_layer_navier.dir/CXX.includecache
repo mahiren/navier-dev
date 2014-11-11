@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/../../bempp-simple-vector-spaces-master/simple_vector_function_value_functor.hpp
+common/common.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/../../bempp-simple-vector-spaces-master/common/common.hpp
+fiber/basis_data.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/../../bempp-simple-vector-spaces-master/fiber/basis_data.hpp
+fiber/geometrical_data.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/../../bempp-simple-vector-spaces-master/fiber/geometrical_data.hpp
+fiber/collection_of_3d_arrays.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/../../bempp-simple-vector-spaces-master/fiber/collection_of_3d_arrays.hpp
+fiber/shape_transformation_functor_wrappers.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/../../bempp-simple-vector-spaces-master/fiber/shape_transformation_functor_wrappers.hpp
+
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/double_layer_navierPYTHON_wrap.cxx
 Python.h
 -
@@ -51,6 +63,8 @@ navier_3d_double_layer_potential_kernel_functor.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/navier_3d_double_layer_potential_kernel_functor.hpp
 navier_3d_double_layer_boundary_operator_integrand_functor.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/navier_3d_double_layer_boundary_operator_integrand_functor.hpp
+../../bempp-simple-vector-spaces-master/simple_vector_function_value_functor.hpp
+/home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/../../bempp-simple-vector-spaces-master/simple_vector_function_value_functor.hpp
 assembly/boundary_operator.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/assembly/boundary_operator.hpp
 assembly/general_elementary_singular_integral_operator_imp.hpp
@@ -77,6 +91,8 @@ common/scalar_traits.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/common/scalar_traits.hpp
 fiber/geometrical_data.hpp
 /home/mahir/Documents/KTH/BEM++ development/Navier/Navier double layer operator/fiber/geometrical_data.hpp
+iostream
+-
 
 /home/mahir/anaconda/include/python2.7/Python.h
 patchlevel.h
@@ -2477,6 +2493,8 @@ Thyra_OperatorVectorTypes.hpp
 /home/mahir/bempp/include/bempp/common/../fiber/../common/common.hpp
 complex
 -
+
+/home/mahir/bempp/include/bempp/common/common.hpp
 
 /home/mahir/bempp/include/bempp/common/config_trilinos.hpp
 
